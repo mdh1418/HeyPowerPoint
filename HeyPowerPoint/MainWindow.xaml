@@ -1,0 +1,20 @@
+﻿<Window x:Class="HeyPowerPoint.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HeyPowerPoint"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Back" HorizontalAlignment="Left" Margin="220,189,0,0" VerticalAlignment="Top" Click="PreviousSlideshowButton_Click"/>
+        <Button Content="Next" HorizontalAlignment="Left" Margin="516,189,0,0" VerticalAlignment="Top" Click="NextSlideshowButton_Click"/>
+        <Button Content="Start" HorizontalAlignment="Left" Margin="51,138,0,0" VerticalAlignment="Top" Click="StartSlideshowButton_Click"/>
+        <Button Content="End" HorizontalAlignment="Left" Margin="51,197,0,0" VerticalAlignment="Top" Click="EndSlideshowButton_Click"/>
+        <Button Content="Start Listening" HorizontalAlignment="Left" Margin="248,329,0,0" VerticalAlignment="Top" Click="StartListeningButton_Click"/>
+        <Button Content="Stop Listening" HorizontalAlignment="Left" Margin="416,329,0,0" VerticalAlignment="Top" Click="StopListeningButton_Click"/>
+        <TextBox Name="RecognizedTextBox" HorizontalAlignment="Left" Height="47" Margin="301,253,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="177"/>
+        <Button Content="Connect" HorizontalAlignment="Left" Margin="51,79,0,0" VerticalAlignment="Top" Click="ConnectPowerPointButton_Click"/>
+
+    </Grid>
+</Window>
